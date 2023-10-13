@@ -18,11 +18,7 @@ class RemoteDsImp implements RemoteDs {
     if (response.statusCode == 200) {
       print(response.statusCode);
       print(response.body);
-      return WeatherModel.fromMap(jsonDecode(response.body)
-      
-      );
-
-      
+      return WeatherModel.fromMap(jsonDecode(response.body));
     } else {
       print(response.statusCode);
       print(response.body);

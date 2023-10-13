@@ -10,3 +10,5 @@ class GetWeather extends WeatherEvent {
 }
 
 class Search extends WeatherEvent {}
+
+

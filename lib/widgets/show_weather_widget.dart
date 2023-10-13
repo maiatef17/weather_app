@@ -42,7 +42,7 @@ class ShowWeatherWidget extends StatelessWidget {
                 Row(
                   children: <Widget>[
                     Image.asset(
-                      'assets/14.png',
+                      'assets/2.png',
                       scale: 10,
                     ),
                     Column(
@@ -63,20 +63,20 @@ class ShowWeatherWidget extends StatelessWidget {
                     Row(
                       children: [
                         Image.asset(
-                          'assets/13.png',
+                          'assets/1.png',
                           scale: 10,
                         ),
                         Column(
                           children: <Widget>[
                             Text(
                               weather.getMaxTemp.round().toString() + "°C",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 30),
+                              style: TextStyle(
+                                  color: Colors.white, fontSize: 30),
                             ),
                             Text(
                               "Max Temprature",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 14),
+                              style: TextStyle(
+                                  color: Colors.white, fontSize: 14),
                             ),
                           ],
                         ),
